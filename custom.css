@@ -1,11 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     margin: 30px;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -28,9 +27,8 @@ body {
 }
 
 #Container {
-    border: 1px solid black;
-    padding: 40px 40px 40px;
-    background-color: #F3F3F3;
+    padding: 10px 40px 40px;
+    background-color: whitesmoke;
     box-sizing: border-box;
 }
 
@@ -38,7 +36,6 @@ body {
     font-size: 38px;
     padding: 0 30px 38px 40px;
     color: darkslategray;
-    font-weight: bolder;
 }
 
 #Container>#ListSections {
@@ -47,18 +44,15 @@ body {
 
 #ListSections>section {
     width: 30%;
-    /*min-height: 200px;*/
     margin-left: 2.5%;
-    border: 1px solid grey;
     background-color: white;
     border-radius: 5px;
     height: fit-content;
 }
 
 #ListSections>section>header {
-    font-size: 22px;
-    font-weight: bold;
-    border: 1px solid olivedrab;
+    font-size: 20px;
+    font-weight: 400;
     padding: 23px;
 }
 
@@ -84,25 +78,22 @@ body {
     margin-top: 10px;
 }
 
-ul > li{
+ul>li {
     min-height: 100px;
     border: 1px solid gray;
     border-radius: 5px;
     list-style-type: none;
     margin: 20px 15px 15px;
     padding: 15px;
-    box-shadow: 1px 2px 11px;
+    box-shadow: 1px 1px 1px;
 }
 
-ul > li p:last-of-type{
+ul>li p:last-of-type {
     margin: 20px 0 0;
-}
-
-ul > li p:last-of-type span{
-    background-color: aqua;
     border-radius: 5px;
+    padding: 2px;
 }
 
-ul>li p:last-of-type .timer{
+ul>li p:last-of-type .timer {
     float: right;
 }
